@@ -8,11 +8,12 @@ package com.jhy;
 public class Test {
     public static void main(String[] args) {
         System.out.println("a");
+        test();
     }
 
-    public void test() {
+    public static void test() {
         int i = 1;
         i += 10;
-
+        System.out.println(i);
     }
 }
